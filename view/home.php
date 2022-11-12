@@ -1,0 +1,1 @@
+<p class="primary-text">Bienvenido, puedes subir tus cuentas <a href="http://localhost/personal/save-account">aqui</a></p>

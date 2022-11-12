@@ -1,0 +1,1 @@
+<div class="alert alert-error"><p>Error al subir cuenta</p><a href="http://localhost/personal/save-account">x</a></div>

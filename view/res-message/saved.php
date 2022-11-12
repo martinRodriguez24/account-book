@@ -1,0 +1,1 @@
+<div class="alert alert-success"><p>Cuenta subida con exito</p><a href="http://localhost/personal/save-account">x</a></div>
