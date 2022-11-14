@@ -3,8 +3,8 @@
 
         <ul class="navbar">
             <li><a href="http://localhost/account-book/home">Inicio</a></li>
-            <li><a href="http://localhost/account-book/save-account">Subir datos</a></li>
-            <li><a href="http://localhost/account-book/show-all">Ver cuentas</a></li>
+            <li><a href="http://localhost/account-book/save-account">Subir una cuenta</a></li>
+            <li><a href="http://localhost/account-book/show-all">Mostrar cuentas</a></li>
             <li><a href="http://localhost/account-book/logout">Cerrar sesion</a></li>
         </ul>
 

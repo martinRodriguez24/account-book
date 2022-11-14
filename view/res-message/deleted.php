@@ -1,1 +1,1 @@
-<div class="alert alert-success"><p>Cuenta eliminada</p><a href="http://localhost/personal/show-all"></a></div>
+<div class="alert alert-success"><p>Cuenta eliminada</p><a href="http://localhost/account-book/show-all"></a></div>

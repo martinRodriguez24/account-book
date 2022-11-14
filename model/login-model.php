@@ -13,5 +13,4 @@ class login_model {
         $statement->bindParam(':password', $password);
         return ($statement->execute()) ? $statement->fetch() : false;
     }
-
 }

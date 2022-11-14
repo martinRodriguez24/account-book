@@ -1,8 +1,8 @@
 <?php
-require_once('controller/account-controller.php');
-require_once('section/form.php');
-include_once('controller/res-message-controller.php');
-$obj = new Account_controller();
+require_once 'controller/account-controller.php';
+require_once 'section/form.php';
+include_once 'controller/res-message-controller.php';
+$obj = new account_controller();
 if ($_POST) {
     $obj->save($_POST['entity'], $_POST['email'], $_POST['name'], $_POST['desc'], $_POST['pass']);
 }
@@ -13,7 +13,5 @@ if ($_POST) {
         <?php
         res_message();
         create_form('', $submit_account); ?>
-
-
     </div>
 </section>

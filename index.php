@@ -13,8 +13,9 @@ if (!isset($_SESSION['admin'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- STYLES.CSS -->
-    <link rel="stylesheet" href="http://localhost/personal/css/styles.css" />
+    <link rel="stylesheet" href="http://localhost/account-book/css/styles.css" />
     <!-- FONTS-ICONS -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- SCRIPTS -->
@@ -32,10 +33,8 @@ if (!isset($_SESSION['admin'])) {
             <?php include 'controller/view-controller.php'; ?>
         </div>
     </div>
+    <?php include('view/section/footer.php'); ?>
 
-    <?php
-    include('view/section/footer.php');
-    ?>
 </body>
 
 </html>

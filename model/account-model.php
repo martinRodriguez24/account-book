@@ -1,5 +1,5 @@
 <?php
-class Account_model
+class account_model
 {
     private $PDO;
     public function __construct()

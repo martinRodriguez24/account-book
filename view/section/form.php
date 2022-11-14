@@ -14,7 +14,7 @@ $update_account = [
 
     'email' => ['email', 'Correo', 'Ejemplo@gmail.com'],
     'pass' => ['password', 'Contraseña', 'Entre 8 a 50 caracteres'],
-    'Acceder' => ['submit']
+    'Editar' => ['submit']
 ];
 
 $login = [
@@ -30,7 +30,7 @@ function create_form($action, $array)
 
         if ($val[0] == 'textarea') {
             echo '<label for="' . $key . '">' . $val[1] . '</label><br>
-            <textarea name="' . $key . '" placeholder="' . $val[2] . '"></textarea><br>';
+            <textarea name="' . $key . '" placeholder="' . $val[2] . '" maxlength="255"></textarea><br>';
         } elseif ($val[0] == 'submit') {
             echo '<input type="submit" value="' . $key . '" class="submit" />';
         } else {

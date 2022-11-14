@@ -1,1 +1,1 @@
-<div class="alert alert-error"><p>Hubo un error, intenta denuevo.</p><a href="http://localhost/personal/show-all">x</a></div>
+<div class="alert alert-error"><p>Hubo un error, intenta denuevo.</p><a href="http://localhost/account-book/show-all">x</a></div>
